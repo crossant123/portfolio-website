@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Nav = () => {
 	return (
-		<nav className="flex items-center justify-between">
+		<nav className=" flex items-center justify-between">
 			<ul className="flex space-x-4">
 				<li>
 					<Link href="/">Home</Link>
