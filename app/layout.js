@@ -12,10 +12,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
 	return (
-		<html lang="en">
-			<body className={inter.className}>
+		<html lang="en" className="light" style={{ colorScheme: "light" }}>
+			<body className={inter.className} suppressHydrationWarning={true}>
 				<Providers>
-					<header className="py-6">
+					<header className="py-6 bg-gradient-to-r from-light-blue-300 to-gray-500 via-blue-900 dark:bg-gradient-to-l from-blue-900 to-gray-500 via-blue-500">
 						<Navbar />
 					</header>
 					<main>{children}</main>

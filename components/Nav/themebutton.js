@@ -1,16 +1,24 @@
 "use client";
 
 import { useTheme } from "next-themes";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const Themebutton = () => {
+	const [mounted, setMounted] = useState(false);
 	const { resolvedTheme, setTheme } = useTheme();
+
+	useEffect(() => setMounted(true), []);
+	if (!mounted) {
+		return null;
+	}
+
 	return (
 		<button
 			className={`w-fit absolute right-5 top-2 p-2 rounded-md hover:scale-110 active:scale-100 duration-200 bg-slate-200 dark:bg-[#212933] text-black dark:text-white`}
 			onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
 		>
 			{resolvedTheme === "dark" ? (
+				//Dark lightbulb
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					fill="none"
@@ -26,6 +34,7 @@ const Themebutton = () => {
 					/>
 				</svg>
 			) : (
+				//Light lightbulb
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 24 24"
