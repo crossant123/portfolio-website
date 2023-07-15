@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const Nav = () => {
 	return (
-		<nav className=" flex items-center justify-between">
-			<ul className="flex space-x-4">
+		<nav className=" flex items-center justify-between mx-4 ">
+			<ul className="flex space-x-4 p-2 rounded-lg bg-slate-100 dark:bg-[#212933] text-black dark:text-white">
 				<li>
 					<Link href="/">Home</Link>
 				</li>

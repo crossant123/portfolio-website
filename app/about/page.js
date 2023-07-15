@@ -1,11 +1,10 @@
-import ContentWindow from "@/components/ContentBox/ContentWindow";
 import React from "react";
 
 function about() {
 	return (
 		<div>
 			About me
-			<ContentWindow />
+			{/* Going to use different themes */}
 		</div>
 	);
 }
