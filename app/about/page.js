@@ -19,15 +19,17 @@ function about() {
 					>
 						<div id="timeline-header">
 							{/* Think into adding icon next to header */}
-							<h2 className=" text-lg font-semibold text-black dark:text-gray-400">
+							<h2 className=" text-lg font-semibold text-text dark:text-darktext">
 								Education:
 							</h2>
 							{/* Add date */}
 						</div>
 						<div className=" m-2" id="timeline-content">
 							{/* Add seperator details / design overarching timeline dots */}
-							<h3 className=" text-md font-medium mb-1">Bachelor's Degree:</h3>
-							<p>
+							<h3 className=" text-md font-medium mb-1 text-text dark:text-darktext">
+								Bachelor's Degree:
+							</h3>
+							<p className="text-text dark:text-darktext">
 								-I have a bachelor's degree in Computer Information Systems from
 								Davenport University.
 								<br />
@@ -56,15 +58,17 @@ function about() {
 					>
 						<div id="timeline-header">
 							{/* Think into adding icon next to header */}
-							<h2 className=" text-2x1 font-semibold mb-4 text-black dark:text-gray-400">
+							<h2 className=" text-lg font-semibold text-text dark:text-darktext">
 								Early Upbringing:
 							</h2>
 							{/* Add date */}
 						</div>
 						<div className=" mb-2" id="timeline-content">
 							{/* Add seperator details / design overarching timeline dots */}
-							<h3 className=" text-md font-medium mb-1">Highschool Diploma:</h3>
-							<p>
+							<h3 className=" text-md font-medium mb-1 text-text dark:text-darktext">
+								Highschool Diploma:
+							</h3>
+							<p className="text-text dark:text-darktext">
 								-I grew up with my Father in Allendale, Michigan. I graduated
 								highschool from Allendale Public Schools in 2018
 							</p>

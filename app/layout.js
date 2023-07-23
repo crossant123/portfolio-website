@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
 		<html lang="en" className="light" style={{ colorScheme: "light" }}>
 			<body className={inter.className} suppressHydrationWarning={true}>
 				<Providers>
-					<header className="py-6 bg-background dark:bg-darkbackground">
+					<header className="py-6 bg-text dark:bg-darkaccent">
 						<Navbar />
 					</header>
 					<main>{children}</main>
