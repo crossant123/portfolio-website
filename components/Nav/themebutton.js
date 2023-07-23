@@ -14,7 +14,7 @@ const Themebutton = () => {
 
 	return (
 		<button
-			className={`w-fit absolute right-5 top-2 p-2 rounded-md hover:scale-110 active:scale-100 duration-200 bg-blue-200 dark:bg-blue-400 text-black dark:text-white`}
+			className={`w-fit absolute right-5 top-2 p-2 rounded-lg hover:scale-110 active:scale-100 duration-200 bg-primary dark:bg-darkprimary`}
 			onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
 		>
 			{resolvedTheme === "dark" ? (
