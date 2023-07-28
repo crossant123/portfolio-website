@@ -12,14 +12,13 @@ function Connections() {
 					{/* Project 1 */}
 					<div className="flex flex-col items-center bg-secondary dark:bg-darksecondary rounded shadow-md p-4 w-60">
 						{/*  Icon*/}
-						<div className=" mx-auto pb-5">
+						<div id="facebook-icon" className=" mx-auto pb-5">
 							<i>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									width="128"
 									height="128"
-									fill="white"
-									class="bi bi-facebook"
+									class="bi bi-facebook fill-text dark:fill-darktext"
 									viewBox="0 0 16 16"
 								>
 									<path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />{" "}
@@ -45,7 +44,8 @@ function Connections() {
 						{/* Link*/}
 						<button className="bg-primary dark:bg-darkprimary rounded-md mt-4 px-2 hover:-translate-y-1">
 							<a
-								href="#"
+								href="https://www.facebook.com/marketplace/profile/100001435333007"
+								target="_blank"
 								className="text-text dark:text-darktext hover:text-blue-700 mt-1 block"
 							>
 								Visit
@@ -56,15 +56,13 @@ function Connections() {
 					{/* Project 2 */}
 					<div className="flex flex-col items-center bg-secondary dark:bg-darksecondary rounded shadow-md p-4 w-60">
 						{/*  Icon*/}
-						<div className=" mx-auto pb-5">
+						<div id="threads-icon" className=" mx-auto pb-5">
 							<i>
 								<svg
 									aria-label="Threads"
 									viewBox="0 0 192 192"
 									xmlns="http://www.w3.org/2000/svg"
-									fill="white"
-									height="128"
-									width="128"
+									class=" w-32 h-h32 stroke-text fill-text dark:stroke-darktext dark:fill-darktext"
 								>
 									<path
 										class="x19hqcy"
@@ -93,7 +91,8 @@ function Connections() {
 						{/* Link*/}
 						<button className="bg-primary dark:bg-darkprimary rounded-md mt-4 px-2 hover:-translate-y-1">
 							<a
-								href="#"
+								href="https://www.threads.net/@crossant_official"
+								target="_blank"
 								className="text-text dark:text-darktext hover:text-blue-700 mt-1 block"
 							>
 								Visit
@@ -102,7 +101,52 @@ function Connections() {
 					</div>
 
 					{/* Project 3 */}
-					<div className="bg-secondary dark:bg-darksecondary rounded shadow-md p-4"></div>
+					<div className="flex flex-col items-center bg-secondary dark:bg-darksecondary rounded shadow-md p-4 w-60">
+						{/*  Icon*/}
+						<div id="email-icon" className=" mx-auto pb-5">
+							<i>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									class=" w-32 h-h32 stroke-text dark:stroke-darktext"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										d="M21.75 9v.906a2.25 2.25 0 01-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 001.183 1.981l6.478 3.488m8.839 2.51l-4.66-2.51m0 0l-1.023-.55a2.25 2.25 0 00-2.134 0l-1.022.55m0 0l-4.661 2.51m16.5 1.615a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V8.844a2.25 2.25 0 011.183-1.98l7.5-4.04a2.25 2.25 0 012.134 0l7.5 4.04a2.25 2.25 0 011.183 1.98V19.5z"
+									/>
+								</svg>
+							</i>
+						</div>
+
+						{/*  Site*/}
+						<div>
+							<h3 className="text-text dark:text-darktext">
+								Email me for inquery
+							</h3>
+						</div>
+
+						{/*  Username*/}
+
+						{/*  Content*/}
+						<div>
+							<p className="text-center text-text dark:text-darktext">
+								This email is for business and opportunity
+							</p>
+						</div>
+
+						{/* Link*/}
+						<button className="bg-primary dark:bg-darkprimary rounded-md mt-4 px-2 hover:-translate-y-1">
+							<a
+								href="mailto: crossant123@gmail.com"
+								className="text-text dark:text-darktext hover:text-blue-700 mt-1 block"
+							>
+								Email Me Directly
+							</a>
+						</button>
+					</div>
 				</div>
 			</div>
 		</main>
