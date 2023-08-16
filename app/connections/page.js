@@ -4,11 +4,11 @@ function Connections() {
 	return (
 		<main className="flex min-h-screen flex-col items-center justify-between p-24 bg-background dark:bg-darkbackground">
 			<div className="container mx-auto px-4 py-8">
-				<h1 className="text-3xl font-bold mb-4 text-text dark:text-darktext w-60  rounded-md">
+				<h1 className="text-3xl font-bold mb-4 text-text dark:text-darktext  rounded-md">
 					Connections
 				</h1>
 
-				<div className="flex flex-row gap-4 justify-center">
+				<div className="flex flex-col md:flex-row gap-4 justify-center items-center">
 					{/* Project 1 */}
 					<div className="flex flex-col items-center bg-secondary dark:bg-darksecondary rounded shadow-md p-4 w-60">
 						{/*  Icon*/}
